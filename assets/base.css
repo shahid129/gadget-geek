@@ -2314,12 +2314,13 @@ input[type='checkbox'] {
 }
 
 .header__heading-link:hover .h2 {
-  color: rgb(var(--color-foreground));
+  /* color: rgb(var(--color-foreground)); */
 }
 
 .header__heading-link .h2 {
   line-height: 1;
-  color: rgba(var(--color-foreground), 0.75);
+  color: white;
+  font: 2em;
 }
 
 .header__heading-logo {
@@ -2381,6 +2382,7 @@ input[type='checkbox'] {
 
 .header__icon span {
   height: 100%;
+  color: white;
 }
 
 .header__icon::after {
@@ -2404,6 +2406,7 @@ input[type='checkbox'] {
   height: 4.4rem;
   width: 4.4rem;
   padding: 0;
+  color: white;
 }
 
 .header__icon--cart {
