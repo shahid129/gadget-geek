@@ -83,6 +83,11 @@
 </style>
 
 {%- style -%}
+  .header-wrapper {
+    background-color: #CC5500;
+  }
+      background-color: #CC5500;
+
   .header {
     padding-top: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px;
@@ -102,8 +107,6 @@
     .header {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
-      /* custom */
-      background-color: #CC5500;
     }
   }
 {%- endstyle -%}
