@@ -2981,3 +2981,9 @@ details-disclosure > details {
   height: 4px;
   background-color: #CC5500
 }
+
+.full-unstyled-link:hover {
+  text-decoration: underline;
+  text-decoration-color: #CC5500;
+  text-underline-offset: 8px;
+}
