@@ -2403,6 +2403,7 @@ input[type='checkbox'] {
 .header__icon:hover .icon,
 .modal__close-button:hover .icon {
   transform: scale(1.07);
+  color: black;
 }
 
 .header__icon .icon {
