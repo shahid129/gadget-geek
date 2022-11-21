@@ -6,6 +6,11 @@
   border-top: none;
 }
 
+.section-footer-padding {
+  background-color: #CC5500;
+
+}
+
 .footer__content-top {
   padding: 5rem;
   display: block;
