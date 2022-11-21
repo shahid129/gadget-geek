@@ -1307,10 +1307,12 @@ button.shopify-payment-button__button--unbranded,
 
 a.button {
   border-radius: 33px;
+  background-color: #CC5500;
+
 }
 
 a.button:hover {
-  background-color: #CC5500;
+  background-color: #a84804;
 }
 
 .button,
@@ -1369,7 +1371,7 @@ button.shopify-payment-button__button--unbranded {
 .shopify-challenge__button:after,
 .customer button:after,
 .shopify-payment-button__button--unbranded:after {
-  content: '';
+  /* content: ''; */
   position: absolute;
   top: var(--buttons-border-width);
   right: var(--buttons-border-width);
