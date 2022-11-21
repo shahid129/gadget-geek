@@ -35,9 +35,10 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/laptop-coffee.jpg",
+        "image": "shopify:\/\/shop_images\/airpod_headphonee_gadget_geek.jpg",
+        "image_2": "shopify:\/\/shop_images\/speakers_gadget_geek.jpg",
         "image_overlay_opacity": 40,
-        "image_height": "large",
+        "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
@@ -111,20 +112,20 @@
         "collection-0": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "scooter-parts"
           }
         },
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
-            "second_image": false
+            "product": "baseus-airnora-true-wireless-tws-earphones-bluetooth-headphones",
+            "second_image": true
           }
         },
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "gadget-accessories"
           }
         }
       },
