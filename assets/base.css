@@ -1323,6 +1323,15 @@ button.shopify-payment-button__button--unbranded {
   min-height: calc(4.5rem + var(--buttons-border-width) * 2);
 }
 
+button.shopify-payment-button__button.shopify-payment-button__button--unbranded {
+  background-color: #CC5500;
+  border-radius: 33px;
+}
+
+button.shopify-payment-button__button.shopify-payment-button__button--unbranded:hover {
+  background-color: #a84804;
+}
+
 .shopify-payment-button__button--branded {
   z-index: auto;
 }
@@ -3001,6 +3010,7 @@ details-disclosure > details {
 .button {
   border-radius: 33px;
   background-color: #CC5500;
+  color: white;
 }
 
 .button:hover {
