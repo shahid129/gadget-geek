@@ -1699,7 +1699,7 @@ details[open] > .share-button__fallback {
 .customer select:before,
 .localization-form__select:before {
   pointer-events: none;
-  content: '';
+  /* content: ''; */
   position: absolute;
   top: 0;
   right: 0;
@@ -1716,7 +1716,7 @@ details[open] > .share-button__fallback {
 .customer select:after,
 .localization-form__select:after {
   pointer-events: none;
-  content: '';
+  /* content: ''; */
   position: absolute;
   top: var(--inputs-border-width);
   right: var(--inputs-border-width);
@@ -1824,6 +1824,7 @@ details[open] > .share-button__fallback {
   padding: 1.5rem;
   margin: var(--inputs-border-width);
   transition: box-shadow var(--duration-short) ease;
+  border-radius: 33px;
 }
 
 .field__label,
