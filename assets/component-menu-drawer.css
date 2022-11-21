@@ -99,6 +99,8 @@ details[open].menu-opening > .menu-drawer__submenu {
 
 .menu-drawer__navigation {
   padding: 5.6rem 0;
+  background: #CC5500;
+  margin: 2px 2px 0 0;
 }
 
 .menu-drawer__inner-submenu {
@@ -237,6 +239,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 
 .menu-drawer__account:hover .icon-account {
   transform: scale(1.07);
+  color: #CC5500;
 }
 
 .menu-drawer .list-social {
