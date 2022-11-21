@@ -1299,10 +1299,18 @@ button.shopify-payment-button__button--unbranded,
   --shadow-blur-radius: var(--buttons-shadow-blur-radius);
   --shadow-opacity: var(--buttons-shadow-opacity);
   --shadow-visible: var(--buttons-shadow-visible);
-  --border-offset: var(--buttons-border-offset); /* reduce radius edge artifacts */
+  /*--border-offset: var(--buttons-border-offset);/* /* reduce radius edge artifacts */
   --border-opacity: calc(1 - var(--buttons-border-opacity));
   border-radius: var(--buttons-radius-outset);
   position: relative;
+}
+
+a.button {
+  border-radius: 33px;
+}
+
+a.button:hover {
+  background-color: #CC5500;
 }
 
 .button,
@@ -2959,4 +2967,13 @@ details-disclosure > details {
   .localization-form__select:focus {
     outline: transparent solid 1px;
   }
+}
+
+/* new styles */
+
+.hr-center {
+  width: 7%;
+  margin: auto;
+  height: 4px;
+  background-color: #CC5500
 }
