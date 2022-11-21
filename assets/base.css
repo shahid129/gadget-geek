@@ -1807,6 +1807,16 @@ details[open] > .share-button__fallback {
   width: 100%;
   display: flex;
   transition: box-shadow var(--duration-short) ease;
+  border-radius: 33px;
+  border: 0.6px solid black;
+}
+
+.field:hover {
+  border: 0.6px solid #CC5500;
+}
+
+.field__input:focus {
+  border-radius: 33px;
 }
 
 .customer .field {
@@ -2986,4 +2996,14 @@ details-disclosure > details {
   text-decoration: underline;
   text-decoration-color: #CC5500;
   text-underline-offset: 8px;
+}
+
+.button {
+  border-radius: 33px;
+  background-color: #CC5500;
+}
+
+.button:hover {
+  background-color: #a84804;
+  
 }
