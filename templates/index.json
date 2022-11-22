@@ -35,8 +35,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/airpod_headphonee_gadget_geek.jpg",
-        "image_2": "shopify:\/\/shop_images\/jbl_clip.jpg",
+        "image": "shopify:\/\/shop_images\/speakers_gadget_geek.jpg",
         "image_overlay_opacity": 40,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -120,7 +119,6 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "cover_image": "shopify:\/\/shop_images\/airpod_headphonee_gadget_geek.jpg",
         "video_url": "https:\/\/www.youtube.com\/watch?v=7thmhA3NXVo",
         "description": "jbl headphone earphone speaker wave vibe tune flip clip xtrem",
         "full_width": false,
