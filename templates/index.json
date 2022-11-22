@@ -13,8 +13,8 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "text": "Dreams about the future are always filled with gadgets.",
+            "text_style": "subtitle"
           }
         },
         "button": {
@@ -36,7 +36,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/airpod_headphonee_gadget_geek.jpg",
-        "image_2": "shopify:\/\/shop_images\/speakers_gadget_geek.jpg",
+        "image_2": "shopify:\/\/shop_images\/jbl_clip.jpg",
         "image_overlay_opacity": 40,
         "image_height": "medium",
         "adapt_height_first_image": false,
