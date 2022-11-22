@@ -406,6 +406,10 @@ noscript .localization-selector.link {
   }
 }
 
+.footer__copyright {
+  color: white;
+}
+
 .footer-block__details-content {
   margin-bottom: 4rem;
 }
@@ -474,6 +478,10 @@ noscript .localization-selector.link {
   .footer-block-image {
     text-align: center;
   }
+}
+
+a.link.link--text.list-menu__item.list-menu__item--link {
+  color: white;
 }
 
 .footer-block-image > img {
